@@ -78,11 +78,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Pequenos Grandes Aprendizes | Coleção Educativa" },
+      { name: "description", content: "Coleção de atividades educativas para crianças dos 5 aos 6 anos: Matemática, Inglês, caligrafia, sons, sílabas e aprendizagem prática." },
+      { name: "author", content: "Pequenos Grandes Aprendizes" },
+      { property: "og:title", content: "Pequenos Grandes Aprendizes" },
+      { property: "og:description", content: "Atividades práticas para aprender, praticar e descobrir dos 5 aos 6 anos." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
@@ -103,7 +103,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-AO">
       <head>
         <HeadContent />
       </head>
