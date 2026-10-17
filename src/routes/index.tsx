@@ -27,7 +27,7 @@ function Index() {
           <div aria-hidden="true" className="absolute -right-16 -top-16 -z-10 h-72 w-72 rounded-full border-[36px] border-[#F8D66D]/35" />
           <div aria-hidden="true" className="absolute -bottom-20 right-24 -z-10 h-52 w-52 rotate-12 rounded-[45px] bg-[#FF9F7F]" />
           <div className="max-w-2xl">
-            <p className="mb-8 text-xs font-bold uppercase tracking-[.28em] text-[#FFF0B8] sm:text-sm">Caderno de atividades · 5–6 anos</p>
+            <p className="mb-8 text-xs font-bold uppercase tracking-[.28em] text-[#FFF0B8] sm:text-sm">Caderno de atividades · aprendizagem ao ritmo de cada criança</p>
             <h1 className="max-w-xl text-4xl font-black leading-[1.04] tracking-[-.04em] sm:text-6xl lg:text-7xl">Pequenos<br />Grandes <span className="text-[#FFE16B]">Aprendizes</span></h1>
             <p className="mt-6 max-w-xl text-base leading-7 text-[#E8F0E6] sm:text-xl sm:leading-8">Um caderno para contar, descobrir palavras, preparar a escrita e aprender através da brincadeira.</p>
             <div className="mt-10 flex flex-wrap items-center gap-3 text-sm font-semibold text-[#F6F4E8]">
@@ -48,7 +48,7 @@ function Index() {
         <section className="mx-auto max-w-3xl py-12 sm:py-16">
           <p className="text-xs font-bold uppercase tracking-[.24em] text-[#E56C50]">Antes de começar</p>
           <h2 className="mt-3 text-3xl font-black leading-tight tracking-tight sm:text-4xl">Aprender com calma, brincar com intenção.</h2>
-          <p className="mt-5 text-base leading-7 text-[#526178]">Este material foi pensado para apoiar crianças dos 5 aos 6 anos em casa ou na sala de aula. Escolha uma atividade de cada vez, leia as instruções em voz alta e dê espaço para a criança experimentar. O objetivo é desenvolver confiança e curiosidade — não terminar depressa.</p>
+          <p className="mt-5 text-base leading-7 text-[#526178]">Este material foi pensado para apoiar crianças em diferentes fases da aprendizagem, em casa ou na sala de aula. Escolha uma atividade de cada vez, leia as instruções em voz alta e dê espaço para a criança experimentar. O objetivo é desenvolver confiança e curiosidade — não terminar depressa.</p>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
             {["Lápis de escrever e lápis de cor", "Folhas e uma superfície confortável", "Acompanhamento paciente de um adulto"].map((item) => <div key={item} className="flex gap-3 border-t border-[#F3DDBA] py-3 text-sm leading-6 text-[#526178]"><Check size={18} className="mt-1 shrink-0 text-[#39A887]" />{item}</div>)}
           </div>
@@ -105,7 +105,7 @@ function Index() {
           <p className="font-bold text-[#3157A4]">Uma nota para pais e educadores</p>
           <p className="mt-2 max-w-3xl leading-6">As crianças desenvolvem competências a ritmos diferentes. Se uma tarefa for difícil, simplifique-a, demonstre um exemplo e tente novamente noutro dia. Supervisione as atividades práticas e siga o modelo de letra cursiva utilizado pela escola.</p>
           <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[#D8DCD2] pt-4 text-xs">
-            <span>Pequenos Grandes Aprendizes · Material educativo para 5–6 anos</span>
+            <span>Pequenos Grandes Aprendizes · Aprender ao ritmo de cada criança</span>
             <a className="font-bold text-[#285B43] underline underline-offset-4" href="/ebook/pequenos-grandes-aprendizes.html" target="_blank" rel="noreferrer">Abrir versão completa para impressão</a>
           </div>
         </footer>
