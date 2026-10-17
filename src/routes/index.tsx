@@ -132,6 +132,7 @@ function Index() {
             <div className="mt-7 flex flex-wrap gap-3">
               <a href="#colecao" className="inline-flex items-center gap-2 rounded-full bg-[#236A50] px-5 py-3 text-sm font-bold text-white shadow-[0_8px_20px_rgba(35,106,80,.18)] transition hover:-translate-y-0.5 hover:bg-[#18553E]">Explorar a coleção <ArrowRight size={17}/></a>
               <a href="#amostra" className="inline-flex items-center gap-2 rounded-full border border-[#DCE3DB] bg-white px-5 py-3 text-sm font-bold text-[#31473A] transition hover:bg-[#EEF4EC]"><BookOpen size={17}/> Ver atividade de exemplo</a>
+              <a href="/ebook/pequenos-grandes-aprendizes.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-[#DCE3DB] bg-white px-5 py-3 text-sm font-bold text-[#236A50] transition hover:bg-[#EEF4EC]"><ArrowDownToLine size={17}/> Abrir caderno PDF</a>
             </div>
             <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm text-[#647168]">
               <span className="inline-flex items-center gap-2"><Check size={16} className="text-[#287D61}"/> 6 áreas de aprendizagem</span>
