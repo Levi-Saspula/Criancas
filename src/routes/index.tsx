@@ -17,7 +17,7 @@ function Index() {
     <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#FFF0B8_0,transparent_32%),radial-gradient(circle_at_90%_40%,#E5F5F5_0,transparent_28%),#FFF8E8] px-4 py-6 text-[#27364B] sm:px-8 sm:py-10">
       <div className="mx-auto max-w-5xl">
         <header className="mb-6 flex items-center justify-between gap-4">
-          <a href="#capa" className="text-xs font-bold uppercase tracking-[.2em] text-[#315B8A] sm:text-sm">Pequenos Grandes Aprendizes</a>
+          <a href="#capa" className="text-xs font-bold uppercase tracking-[.2em] text-[#315B8A] sm:text-sm">Aventura do Saber</a>
           <a href="/ebook/pequenos-grandes-aprendizes.html" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-[#F4D9A5] bg-white px-4 py-2 text-xs font-bold text-[#315B8A] transition hover:bg-white sm:text-sm">
             <BookOpen size={16} /> Abrir caderno completo
           </a>
@@ -28,7 +28,7 @@ function Index() {
           <div aria-hidden="true" className="absolute -bottom-20 right-24 -z-10 h-52 w-52 rotate-12 rounded-[45px] bg-[#FF9F7F]" />
           <div className="max-w-2xl">
             <p className="mb-8 text-xs font-bold uppercase tracking-[.28em] text-[#FFF0B8] sm:text-sm">Caderno de atividades · aprendizagem ao ritmo de cada criança</p>
-            <h1 className="max-w-xl text-4xl font-black leading-[1.04] tracking-[-.04em] sm:text-6xl lg:text-7xl">Pequenos<br />Grandes <span className="text-[#FFE16B]">Aprendizes</span></h1>
+            <h1 className="max-w-xl text-4xl font-black leading-[1.04] tracking-[-.04em] sm:text-6xl lg:text-7xl">Aventura<br />do <span className="text-[#FFE16B]">Saber</span></h1>
             <p className="mt-6 max-w-xl text-base leading-7 text-[#E8F0E6] sm:text-xl sm:leading-8">Um caderno para contar, descobrir palavras, preparar a escrita e aprender através da brincadeira.</p>
             <div className="mt-10 flex flex-wrap items-center gap-3 text-sm font-semibold text-[#F6F4E8]">
               <span className="rounded-full border border-white/40 bg-white/10 px-4 py-2">Matemática</span>
@@ -97,7 +97,7 @@ function Index() {
                 <div className="mt-4 flex items-end gap-2 text-sm">Resposta: <span className="inline-block h-6 flex-1 border-b border-[#9AA698]" /></div>
               </div>)}
             </div>
-            <p className="mt-6 border-t border-[#D9DDD4] pt-3 text-xs text-[#758198]">Pequenos Grandes Aprendizes · Matemática</p>
+            <p className="mt-6 border-t border-[#D9DDD4] pt-3 text-xs text-[#758198]">Aventura do Saber · Matemática</p>
           </div>
         </section>
 
@@ -105,7 +105,7 @@ function Index() {
           <p className="font-bold text-[#3157A4]">Uma nota para pais e educadores</p>
           <p className="mt-2 max-w-3xl leading-6">As crianças desenvolvem competências a ritmos diferentes. Se uma tarefa for difícil, simplifique-a, demonstre um exemplo e tente novamente noutro dia. Supervisione as atividades práticas e siga o modelo de letra cursiva utilizado pela escola.</p>
           <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[#D8DCD2] pt-4 text-xs">
-            <span>Pequenos Grandes Aprendizes · Aprender ao ritmo de cada criança</span>
+            <span>Aventura do Saber · Aprender ao ritmo de cada criança</span>
             <a className="font-bold text-[#285B43] underline underline-offset-4" href="/ebook/pequenos-grandes-aprendizes.html" target="_blank" rel="noreferrer">Abrir versão completa para impressão</a>
           </div>
         </footer>
